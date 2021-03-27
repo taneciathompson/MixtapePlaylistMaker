@@ -1,0 +1,76 @@
+h1 {
+  font-size: 5rem;
+  text-align: center;
+  color:black;
+}
+
+label {
+  font-size: 2rem;
+}
+
+.btn-lg {
+  background-color: black;
+  border-color: black;
+}
+
+.btn-lg:hover {
+  background-color:#006B9F; 
+  border-color: black;
+}
+
+.btn-lg {
+  position: relative;
+  top: 0;
+  transition: top ease 0.5s;
+}
+.btn-lg:hover {
+  top: -10px;
+}
+
+p {
+  font-size: 2rem;
+  text-align: center;
+  display: inline-block;
+  margin: 0 auto;
+}
+p a{
+  color: white;
+  font-size: 2.2rem;
+  border: 2px solid black;
+  padding: 3px;
+  background-color: black;
+  border-color: black;
+  border-radius: 6px;
+}
+
+p a:hover {
+  background-color:#006B9F; 
+  border-color: black;
+  text-decoration: none;
+  color:white;
+}
+
+p a {
+  position: relative;
+  top: 0;
+  transition: top ease 0.5s;
+}
+p a:hover {
+  top: -10px;
+}
+
+.container .jumbotron h1{
+  font-size: 10rem;
+  color:black;
+}
+
+.container .jumbotron p {
+  font-size: 3.5rem;
+  color:black;
+}
+
+.container .jumbotron a {
+  height: 40px;
+  width: 100px;
+  font-size: 1.8rem;
+}

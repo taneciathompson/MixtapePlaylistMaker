@@ -1,0 +1,60 @@
+body{
+  padding-top:80px;
+  word-wrap:break-word;
+  background: url(./img/musicBackgroundFull.png) no-repeat center;
+  background-size: cover;
+  font-family: cursive;
+  height: 100vh;
+}
+
+h1{
+  color: white;
+} 
+
+img{
+  height: 200px;
+}
+
+.hidden {
+  display:none;
+}
+
+.jumbotron {
+  height: 600px;
+  width: 100%;
+  background-color: transparent;
+}
+
+h1 {
+  font-size: 5rem;
+}
+
+.container .jumbotron h1{
+  font-size: 10rem;
+  color:black;
+}
+
+.container .jumbotron p {
+  font-size: 3.5rem;
+  color:black;
+}
+
+.container .jumbotron a {
+  height: 40px;
+  width: 100px;
+  font-size: 1.8rem;
+  position: relative;
+  top: 0;
+  transition: top ease 0.5s;
+  background-color:black;
+  color: white;
+  border-color: black;
+}
+
+.container .jumbotron a:hover {
+  background-color:#006B9F; 
+  border-color: black;
+  text-decoration: none;
+  color:white;
+  top: -10px;
+}
