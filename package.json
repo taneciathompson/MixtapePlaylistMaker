@@ -2,7 +2,8 @@
   "name": "node-authentication",
   "main": "server.js",
   "dependencies": {
-    "bcrypt-nodejs": "latest",
+    "bcrypt": "^5.0.1",
+    "bcrypt-nodejs": "0.0.3",
     "body-parser": "^1.18.3",
     "connect-flash": "~0.1.1",
     "cookie-parser": "~1.4.3",
@@ -15,6 +16,7 @@
     "mongoose": "^5.12.1",
     "morgan": "^1.9.1",
     "mpath": ">=0.5.1",
+    "nodejs": "0.0.0",
     "passport": "~0.3.2",
     "passport-facebook": "~2.1.1",
     "passport-google-oauth": "~1.0.0",
